@@ -18,7 +18,7 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: [
-      "Arial",
+      "Poppins",
       "sans-serif"
     ].join(",")
   }

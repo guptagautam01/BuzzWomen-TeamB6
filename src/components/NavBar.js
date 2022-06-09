@@ -5,9 +5,9 @@ function Navbar(){
   return (
         <AppBar position='static'>
         <Toolbar>
-        <Typography variant='h6' flexGrow={1} fontFamily={'Rubik'}><b>Sakhi</b></Typography>
-        <Button color='inherit'>Explore</Button>
-        <Button color='inherit'>Donate</Button>
+        <Typography variant='h6'  style={{ color: 'white' }}  flexGrow={1} fontFamily={'Poppins'}><b>Sakhi</b></Typography>
+        <Button color='inherit'  style={{ color: 'white' }} >Explore</Button>
+        <Button color='inherit'  style={{ color: 'white' }} >Donate</Button>
         </Toolbar>
         </AppBar>
   )
