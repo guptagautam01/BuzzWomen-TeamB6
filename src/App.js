@@ -5,7 +5,6 @@ import { Container } from '@mui/material';
 import BlogSection from './components/BlogSection';
 import Chatbot from './components/Chatbot';
 import Chatbot_hi from './components/Chatbot_hi';
-// import ContactUs from './components/ContactUs';
 import { useState } from 'react';
 
 const theme = createTheme({
@@ -33,8 +32,8 @@ function App() {
           <HeroSection setLanguage ={setLanguage}/> 
           <BlogSection />
        </Container>
-       {language==="en" && <Chatbot />}
-       {language==="hi" && <Chatbot_hi />}
+       {language ==="en" && <Chatbot />}
+       {language ==="hi" && <Chatbot_hi />}
        {/* <Chatbot /> */}
        {/* <Chatbot_hi /> */}
    </ThemeProvider>

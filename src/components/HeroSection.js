@@ -15,7 +15,6 @@ const HeroSection = ({ setLanguage }) => {
                 </Typography>
                 <Typography variant="h6">
                     <Box sx={{ pb: 2, pt: 2 }}>We bring transformation within reach. And enable women to ignite their personal and collective power.</Box>
-
                 </Typography>
                 <Button size="large" style={{ color: 'white' }} variant="contained" sx={{ borderRadius: 5, margin: 1 }} onClick={() => setLanguage("en")}>
                     <Box>Connect in English</Box>
