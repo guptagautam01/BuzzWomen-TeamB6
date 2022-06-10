@@ -30,7 +30,6 @@ function App() {
        <NavBar />
        <Container>
           <HeroSection setLanguage ={setLanguage}/> 
-          <BlogSection />
        </Container>
        {language ==="en" && <Chatbot />}
        {language ==="hi" && <Chatbot_hi />}

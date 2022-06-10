@@ -5,7 +5,7 @@ import Women from '../images/robot.png'
 
 const HeroSection = ({ setLanguage }) => {
     return (
-        <Grid container direction="row" alignItems="center" minHeight={400} fontFamily={'Rubik'} sx={{ p: 2 }}>
+        <Grid container direction="row" alignItems="center" overflow-y="hidden" maxHeight={60} fontFamily={'Rubik'} sx={{ p: 2 }}>
             <Grid item xs={6} sm={6} order={{ xs: 2, sm: 1 }}>
                 <Typography variant="h6" >
                     Join the movement
