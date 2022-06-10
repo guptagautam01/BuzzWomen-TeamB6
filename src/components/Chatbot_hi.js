@@ -7,6 +7,7 @@ const Chatbot_hi = () => {
   chat-title="ChatBot"
   agent-id="0c34c2f2-b972-452f-bf2b-f05e2c0977c3"
   language-code="hi"
+  chat-icon = "https://i.im.ge/2022/06/10/rzUP1L.png"
 ></df-messenger>
   )
 }

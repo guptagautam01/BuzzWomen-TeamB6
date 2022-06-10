@@ -6,3 +6,12 @@ body {
 code {
   margin: 0;
 }
+
+df-messenger {
+  --df-messenger-bot-message: #F5812E;
+  --df-messenger-button-titlebar-color: #a0a3ad;
+  --df-messenger-chat-background-color: #fafafa;
+  --df-messenger-font-color: white;
+  --df-messenger-send-icon: #878fac;
+  --df-messenger-user-message: #ffbe18  ; 
+ }
