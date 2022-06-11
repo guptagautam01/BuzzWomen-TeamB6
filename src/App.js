@@ -2,7 +2,6 @@ import NavBar from './components/NavBar';
 import { createTheme,ThemeProvider } from '@mui/material/styles';
 import HeroSection from './components/HeroSection';
 import { Container } from '@mui/material';
-import BlogSection from './components/BlogSection';
 import Chatbot from './components/Chatbot';
 import Chatbot_hi from './components/Chatbot_hi';
 import { useState } from 'react';
