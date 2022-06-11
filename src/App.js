@@ -6,6 +6,7 @@ import BlogSection from './components/BlogSection';
 import Chatbot from './components/Chatbot';
 import Chatbot_hi from './components/Chatbot_hi';
 import { useState } from 'react';
+import Chatbot_kn from './components/Chatbot_kn';
 
 const theme = createTheme({
   palette: {
@@ -33,6 +34,7 @@ function App() {
        </Container>
        {language ==="en" && <Chatbot />}
        {language ==="hi" && <Chatbot_hi />}
+       {language ==="kn" && <Chatbot_kn />}
        {/* <Chatbot /> */}
        {/* <Chatbot_hi /> */}
    </ThemeProvider>

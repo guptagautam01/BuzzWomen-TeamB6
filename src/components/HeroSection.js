@@ -22,6 +22,9 @@ const HeroSection = ({ setLanguage }) => {
                 <Button size="large" style={{ color: 'white' }} variant="contained" sx={{ borderRadius: 5, margin: 1 }} onClick={() => setLanguage("hi")}>
                     <Box>हिंदी में जुड़ें</Box>
                 </Button>
+                <Button size="large" style={{ color: 'white' }} variant="contained" sx={{ borderRadius: 5, margin: 1 }} onClick={() => setLanguage("kn")}>
+                    <Box>ಕನ್ನಡದಲ್ಲಿ ಸಂಪರ್ಕಿಸಿ</Box>
+                </Button>
             </Grid>
             <Grid container item xs={12} sm={6} justifyContent="center" order={{ xs: 1, sm: 2 }} >
                 <Box component="img" src={Women} />
