@@ -325,7 +325,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest(
         score += revenue <= doc.expected_income ? 1 : 0;
         score += time >= doc.working_hours ? 2 : 0;
         if (score / 5 >= 0.5) {
-          const text=`According to our algorithm, you are good to pursue ${doc.profession} as a profession.`;
+          const text=`We have the following suggestion for you : ${doc.profession}.`;
           if (agent.locale==="en") {
             agent.add(text);
           } else {
