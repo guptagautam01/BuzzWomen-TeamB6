@@ -55,12 +55,11 @@ function Navbar() {
           </Typography>
           <Typography
             variant="h6"
-            style={{ color: "white", textAlign: "end", cursor: "pointer" }}
+            style={{ color: "white", textAlign: "end" }}
             flexGrow={1}
             fontFamily={"Poppins"}
-            onClick={handleClickOpen}
           >
-            Phone Gateway
+            <span  style={{cursor: "pointer"}} onClick={handleClickOpen}>Phone Gateway</span>
           </Typography>
         </Toolbar>
       </AppBar>
