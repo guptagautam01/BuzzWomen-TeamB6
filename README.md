@@ -1,3 +1,15 @@
+# Sakhi - Team B6
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## The Issue
+
+The Non-Profit that we got the chance to work for was "BuzzWomen". We researched about the problem and understood the need for bringing technology to remote areas in order to help people, especially women get themselves out of debt and become self sufficient by setting up their own businesses with enough knowledge and insights. Our prototype or POC was seen as our way of giving back to the society
+
+### Our Solution
+
+We did our own research on feasible business ideas and the factors affecting their success probability. We used this research to model our conversational model and devised a point-based system which assesses the strengths of the user using these predefined questions and predicting the probability of success. Our chatbot can be accessed on desktop, smartphones, tablets, Telegram.
+
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/77456175/173553971-7267479a-6cb2-4177-94c2-a80bf91ba51b.png">
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/77456175/173554080-3813fd25-85c0-4290-9b01-4aa8bc10b117.png">
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/77456175/173554126-d8a82dce-0e3f-41f6-a304-4872d637d49b.png">
