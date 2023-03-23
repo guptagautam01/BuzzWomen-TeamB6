@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Chatbot_kn = () => {
+const ChatbotKn = () => {
   return (
     <df-messenger
     intent="WELCOME"
@@ -12,4 +12,4 @@ const Chatbot_kn = () => {
   )
 }
 
-export default Chatbot_kn
+export default ChatbotKn
