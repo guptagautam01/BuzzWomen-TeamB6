@@ -3,9 +3,9 @@ import { createTheme,ThemeProvider } from '@mui/material/styles';
 import HeroSection from './components/HeroSection';
 import { Container } from '@mui/material';
 import Chatbot from './components/Chatbot';
-import Chatbot_hi from './components/Chatbot_hi';
+import ChatbotHi from './components/ChatbotHi';
 import { useState } from 'react';
-import Chatbot_kn from './components/Chatbot_kn';
+import ChatbotKn from './components/ChatbotKn';
 
 const theme = createTheme({
   palette: {
@@ -32,8 +32,8 @@ function App() {
           <HeroSection setLanguage ={setLanguage}/> 
        </Container>
        {language ==="en" && <Chatbot />}
-       {language ==="hi" && <Chatbot_hi />}
-       {language ==="kn" && <Chatbot_kn />}
+       {language ==="hi" && <ChatbotHi />}
+       {language ==="kn" && <ChatbotKn />}
        {/* <Chatbot /> */}
        {/* <Chatbot_hi /> */}
    </ThemeProvider>
